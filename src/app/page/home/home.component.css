@@ -93,7 +93,7 @@ h6 {
 }
 
 .btn-primary {
-    background-color: var(--white);
+    background-color: white;
     color: var(--very-dark-desaturated-blue);
 }
 
@@ -164,7 +164,8 @@ img {
 }
 
 .btn-contact {
-    background: var(--white);
+    background: white;
+    background: white;
     color: var(--very-dark-desaturated-blue);
     font-family: var(--font-family-fraunces);
     font-weight: 700;
@@ -253,7 +254,7 @@ img {
     position: relative;
     min-height: 110vh;
     width: 100%;
-    background: url("images/desktop/image-header.jpg") top center/cover
+    background: url("/images/desktop/image-header.jpg") top center/cover
         no-repeat;
     display: flex;
     align-items: center;
@@ -306,7 +307,7 @@ img {
 @media (max-width: 600px) {
     .hero {
         min-height: 95vh;
-        background-image: url("images/mobile/image-header.jpg");
+        background-image: url("/images/mobile/image-header.jpg");
         background-position: top center;
         background-size: cover;
     }
@@ -336,12 +337,12 @@ img {
     background-repeat: no-repeat;
 }
 .service-image__transform {
-    background-image: url("images/desktop/image-transform.jpg");
+    background-image: url("/images/desktop/image-transform.jpg");
     background-size: cover;
     background-position: center;
 }
 .service-image__standout {
-    background-image: url("images/desktop/image-stand-out.jpg");
+    background-image: url("/images/desktop/image-stand-out.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -418,11 +419,11 @@ img {
 /* Mobile Responsive Design */
 @media (max-width: 600px) {
     .service-image__transform {
-        background-image: url("images/mobile/image-transform.jpg");
+        background-image: url("/images/mobile/image-transform.jpg");
         /* background-size: 100vw; */
     }
     .service-image__standout {
-        background-image: url("images/mobile/image-stand-out.jpg");
+        background-image: url("/images/mobile/image-stand-out.jpg");
         /* background-size: 100vw; */
     }
     .service h2 {
@@ -460,10 +461,10 @@ img {
     background-repeat: no-repeat;
 }
 .graphic-design {
-    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-image: url("/images/desktop/image-graphic-design.jpg");
 }
 .photography {
-    background-image: url("images/desktop/image-photography.jpg");
+    background-image: url("/images/desktop/image-photography.jpg");
 }
 /* .design-block h3 {
     font-family: var(--font-family-fraunces);
@@ -651,20 +652,20 @@ img {
         padding: 0;
     }
     .service-image--transform {
-        background-image: url("images/mobile/image-transform.jpg");
+        background-image: url("/images/mobile/image-transform.jpg");
     }
     .service-image--standout {
-        background-image: url("images/mobile/image-stand-out.jpg");
+        background-image: url("/images/mobile/image-stand-out.jpg");
     }
     .design-photo-grid {
         grid-template-columns: 1fr;
     }
     .graphic-design {
-        background-image: url("images/mobile/image-graphic-design.jpg");
+        background-image: url("/images/mobile/image-graphic-design.jpg");
         min-height: 240px;
     }
     .photography {
-        background-image: url("images/mobile/image-photography.jpg");
+        background-image: url("/images/mobile/image-photography.jpg");
         min-height: 240px;
     }
     .design-block {
@@ -682,16 +683,16 @@ img {
         grid-template-columns: 1fr 1fr;
     }
     .gallery img:nth-child(1) {
-        content: url("images/mobile/image-gallery-milkbottles.jpg");
+        content: url("/images/mobile/image-gallery-milkbottles.jpg");
     }
     .gallery img:nth-child(2) {
-        content: url("images/mobile/image-gallery-orange.jpg");
+        content: url("/images/mobile/image-gallery-orange.jpg");
     }
     .gallery img:nth-child(3) {
-        content: url("images/mobile/image-gallery-cone.jpg");
+        content: url("/images/mobile/image-gallery-cone.jpg");
     }
     .gallery img:nth-child(4) {
-        content: url("images/mobile/image-gallery-sugar-cubes.jpg");
+        content: url("/images/mobile/image-gallery-sugar-cubes.jpg");
     }
     .gallery img {
         height: 100px;
